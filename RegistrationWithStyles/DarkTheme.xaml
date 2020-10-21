@@ -1,0 +1,41 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:RegistrationWithStyles">
+    <SolidColorBrush x:Key="gridBackgroun" Color="Black" />
+    <SolidColorBrush x:Key="white" Color="WhiteSmoke" />
+    <SolidColorBrush x:Key="boxesBackground" Color="DarkGray" />
+    <Style TargetType="Button">
+        <Style.Setters>
+            <!--<Setter Property="Background" Value="DarkGray" />-->
+            <!--<Setter Property="Foreground" Value="{StaticResource black}" />-->
+        </Style.Setters>
+    </Style>
+    <Style TargetType="Grid">
+        <Style.Setters>
+            <Setter Property="Background" Value="{StaticResource gridBackgroun}" />
+        </Style.Setters>
+    </Style>
+    <Style TargetType="TextBox">
+        <Style.Setters>
+            <Setter Property="Background" Value="{StaticResource boxesBackground}" />
+            <Setter Property="Foreground" Value="{StaticResource white}" />
+            <Setter Property="BorderBrush" Value="{StaticResource white}" />
+            <Setter Property="BorderThickness" Value="2" />
+        </Style.Setters>
+    </Style>
+    <Style TargetType="TextBlock">
+        <Style.Setters>
+            <Setter Property="Foreground" Value="DarkGray" />
+        </Style.Setters>
+    </Style>
+    <Style TargetType="PasswordBox">
+        <Style.Setters>
+            <Setter Property="Background" Value="{StaticResource boxesBackground}" />
+            <Setter Property="Foreground" Value="{StaticResource white}" />
+            <Setter Property="BorderBrush" Value="{StaticResource white}" />
+            <Setter Property="BorderThickness" Value="2" />
+        </Style.Setters>
+    </Style>
+    
+
+</ResourceDictionary>
